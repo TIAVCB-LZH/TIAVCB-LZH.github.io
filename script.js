@@ -17,14 +17,14 @@ const translations = {
 
     research_title: "Research Interests",
 
-    research_1_title: "Multimodal Learning",
-    research_1_text: "Learning from heterogeneous data sources such as environmental sensors, wearable signals, Wi-Fi CSI, images, and textual information.",
+    research_1_title: "Multimodal Wireless Sensing",
+    research_1_text: "Integrating Wi-Fi CSI, environmental sensor data, and machine learning methods to perform non-contact sensing and modeling of physiological changes, spatial location, and activity states.",
 
-    research_2_title: "Emotion Estimation",
-    research_2_text: "Estimating human emotion, comfort, and physiological states using non-contact and multimodal sensing techniques.",
+    research_2_title: "Human-State Estimation",
+    research_2_text: "Using Wi-Fi CSI and environmental data to infer HRV-related indicators such as LF/HF, and further analyze physiological changes, location changes, and activity states as a basis for emotion and comfort estimation.",
 
     research_3_title: "Smart Space Systems",
-    research_3_text: "Designing intelligent environments that adapt lighting, sound, temperature, and humidity according to user states.",
+    research_3_text: "Building smart space systems that adapt to changes in human state, such as automatically adjusting lighting, sound, temperature, and humidity according to users' physiological state, location, and activity.",
 
     publications_title: "Selected Publications",
     paper_1_title: "Title of Your Paper",
@@ -55,14 +55,14 @@ const translations = {
 
     research_title: "研究方向",
 
-    research_1_title: "多模态学习",
-    research_1_text: "从环境传感器、可穿戴信号、Wi-Fi CSI、图像和文本等异构数据中进行联合建模与学习。",
+    research_1_title: "多模态无线感知",
+    research_1_text: "结合 Wi-Fi CSI、环境传感器数据与机器学习方法，对人体生理变化、空间位置和动作状态进行非接触式感知与建模。",
 
-    research_2_title: "情绪估计",
-    research_2_text: "利用非接触式和多模态感知技术估计人的情绪、舒适度和生理状态。",
+    research_2_title: "人体状态估计",
+    research_2_text: "利用 Wi-Fi CSI 与环境数据推测 HRV 相关指标中的 LF/HF，并进一步分析人体的生理变化、位置变化和动作状态，为情绪与舒适度估计提供基础。",
 
     research_3_title: "智能空间系统",
-    research_3_text: "设计能够根据用户状态自动调节照明、声音、温度和湿度的智能环境。",
+    research_3_text: "构建能够根据人体状态变化进行自适应调节的智能空间系统，例如根据用户的生理状态、位置和活动情况，自动调节照明、声音、温度和湿度。",
 
     publications_title: "代表论文",
     paper_1_title: "你的论文标题",
@@ -93,14 +93,14 @@ const translations = {
 
     research_title: "研究分野",
 
-    research_1_title: "マルチモーダル学習",
-    research_1_text: "環境センサ、ウェアラブル信号、Wi-Fi CSI、画像、テキストなどの異種データを用いた学習に取り組んでいます。",
+    research_1_title: "マルチモーダル無線センシング",
+    research_1_text: "Wi-Fi CSI、環境センサデータ、機械学習手法を組み合わせ、人体の生理的変化、空間位置、動作状態を非接触でセンシングし、モデル化します。",
 
-    research_2_title: "感情推定",
-    research_2_text: "非接触型およびマルチモーダルセンシング技術を用いて、人間の感情、快適度、生理状態を推定します。",
+    research_2_title: "人体状態推定",
+    research_2_text: "Wi-Fi CSI と環境データを用いて HRV 関連指標である LF/HF を推定し、さらに人体の生理的変化、位置変化、動作状態を分析することで、感情と快適度推定の基盤を構築します。",
 
     research_3_title: "スマート空間システム",
-    research_3_text: "ユーザの状態に応じて、照明、音、温度、湿度を自動調整する知的環境の設計を目指しています。",
+    research_3_text: "人体状態の変化に応じて自適応的に調整できるスマート空間システムを構築します。例えば、ユーザの生理状態、位置、活動状況に基づき、照明、音、温度、湿度を自動調整します。",
 
     publications_title: "代表論文",
     paper_1_title: "論文タイトル",
