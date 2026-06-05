@@ -14,7 +14,6 @@ const translations = {
 
     news_title: "News",
     news_1: "Personal academic website launched.",
-    news_2: "Preparing a Ph.D. research proposal.",
 
     research_title: "Research Interests",
 
@@ -53,7 +52,6 @@ const translations = {
 
     news_title: "最新动态",
     news_1: "个人学术主页上线。",
-    news_2: "正在准备多模态学习与智能系统方向的博士研究计划。",
 
     research_title: "研究方向",
 
@@ -92,7 +90,6 @@ const translations = {
 
     news_title: "ニュース",
     news_1: "個人学術ホームページを公開しました。",
-    news_2: "マルチモーダル学習と知能システムに関する博士研究計画を準備しています。",
 
     research_title: "研究分野",
 
