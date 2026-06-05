@@ -10,12 +10,7 @@ const translations = {
     subtitle: "Multimodal Wireless Sensing and Human-State Estimation",
 
     about_p1: "I am interested in multimodal wireless sensing, intelligent perception, human-state estimation, smart space systems, and non-contact physiological state monitoring.",
-    about_p2: "My current research focuses on the non-contact estimation of human physiological changes, 
-               spatial location, and activity states by integrating Wi-Fi CSI, 
-               environmental sensor data, and machine learning methods. Specifically, 
-               I aim to infer HRV-related indicators such as the LF/HF ratio using Wi-Fi CSI and environmental data, 
-               while also using CSI to sense human location and behavioral activities. 
-               This work supports more robust human-state understanding and adaptive smart-space regulation.",
+    about_p2: "My current research focuses on the non-contact estimation of human physiological changes, spatial location, and activity states by integrating Wi-Fi CSI, environmental sensor data, and machine learning methods. Specifically, I aim to infer HRV-related indicators such as the LF/HF ratio using Wi-Fi CSI and environmental data, while also using CSI to sense human location and behavioral activities. This work supports more robust human-state understanding and adaptive smart-space regulation.",
 
     news_title: "News",
     news_1: "Personal academic website launched.",
@@ -54,9 +49,7 @@ const translations = {
     subtitle: "多模态无线感知与人体状态估计",
 
     about_p1: "我的研究兴趣包括多模态无线感知、智能感知、人体状态估计、智能空间系统以及非接触式生理状态监测。",
-    about_p2: "目前的研究重点是结合 Wi-Fi CSI、环境传感器数据与机器学习方法，对人体生理变化、空间位置和动作状态进行非接触式估计。
-               具体而言，我尝试利用 Wi-Fi CSI 与环境数据推测 HRV 相关指标中的 LF/HF，
-               并通过 CSI 感知人的位置与行为动作，从而支持更加稳定的人体状态理解与智能空间调节。",
+    about_p2: "目前的研究重点是结合 Wi-Fi CSI、环境传感器数据与机器学习方法，对人体生理变化、空间位置和动作状态进行非接触式估计。具体而言，我尝试利用 Wi-Fi CSI 与环境数据推测 HRV 相关指标中的 LF/HF，并通过 CSI 感知人的位置与行为动作，从而支持更加稳定的人体状态理解与智能空间调节。",
 
     news_title: "最新动态",
     news_1: "个人学术主页上线。",
@@ -95,8 +88,7 @@ const translations = {
     subtitle: "マルチモーダル無線センシングおよび人間状態推定",
 
     about_p1: "私の研究関心は、マルチモーダル無線センシング、知能的センシング、人間状態推定、スマートスペースシステム、および非接触型の生理状態モニタリングにあります。",
-    about_p2: "現在の研究では、Wi-Fi CSI、環境センサデータ、および機械学習手法を組み合わせることで、
-                人間の生理的変化、空間的位置、行動状態を非接触で推定することに重点を置いています。具体的には、Wi-Fi CSI と環境データを用いて、HRV 関連指標である LF/HF 比を推定するとともに、CSI によって人の位置や行動を感知することを試みています。これにより、より安定した人間状態の理解とスマートスペースの適応的制御を支援することを目指しています。",
+    about_p2: "現在の研究では、Wi-Fi CSI、環境センサデータ、および機械学習手法を組み合わせることで、人間の生理的変化、空間的位置、行動状態を非接触で推定することに重点を置いています。具体的には、Wi-Fi CSI と環境データを用いて、HRV 関連指標である LF/HF 比を推定するとともに、CSI によって人の位置や行動を感知することを試みています。これにより、より安定した人間状態の理解とスマートスペースの適応的制御を支援することを目指しています。",
 
     news_title: "ニュース",
     news_1: "個人学術ホームページを公開しました。",
