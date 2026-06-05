@@ -30,11 +30,11 @@ const translations = {
 
     education_title: "Education",
     education_1_title: "Chiba University, Japan",
-    education_1_text: "M.S. student in Computer Science.",
+    education_1_text: "M.S. student in Computer Science",
     education_2_title: "Hokuriku University, Japan",
-    education_2_text: "Undergraduate study in Management.",
+    education_2_text: "B.A. student in Management",
     education_3_title: "Dalian University of Foreign Languages, China",
-    education_3_text: "B.Eng. in Network Engineering.",
+    education_3_text: "B.Eng. in Network Engineering",
 
     publications_title: "Publications and Presentations",
     paper_1_title: "Application and Security Analysis of Virtual Private Network (VPN) in Network Communication",
@@ -48,10 +48,6 @@ const translations = {
     project_1_meta: "Short-term Researcher, JAIST, August 2024 - September 2024",
     project_1_text: "Developed Java-based middleware for cross-protocol communication between application clients and smart home devices, supporting device discovery, remote control, status acquisition, and feedback mechanisms.",
     project_1_tags: "Java / MQTT / ECHONET Lite / UDP / TCP / IoT Middleware",
-    project_2_title: "Emotion-Aware Smart Space Research Prototype",
-    project_2_text: "Explores non-contact emotion and comfort estimation from temperature, illuminance, and other indoor environmental data, with the goal of adaptive indoor regulation.",
-    project_2_tags: "Environmental Sensors / Machine Learning / Affective Computing / Smart Space",
-
     experience_title: "Experience",
     experience_1_title: "Teaching Assistant, Qingteng Education Group",
     experience_1_text: "Supported students preparing for Japanese graduate school entrance examinations by organizing admissions information, refining preparation plans, and translating complex application requirements into practical study guidance.",
@@ -92,11 +88,11 @@ const translations = {
 
     education_title: "教育背景",
     education_1_title: "日本 千叶大学",
-    education_1_text: "计算机科学硕士研究生。",
+    education_1_text: "计算机科学 硕士研究生",
     education_2_title: "日本 北陆大学",
-    education_2_text: "管理学本科阶段学习。",
+    education_2_text: "管理学 本科",
     education_3_title: "大连外国语大学",
-    education_3_text: "网络工程本科。",
+    education_3_text: "网络工程 本科",
 
     publications_title: "论文与学术发表",
     paper_1_title: "Application and Security Analysis of Virtual Private Network (VPN) in Network Communication",
@@ -110,10 +106,6 @@ const translations = {
     project_1_meta: "短期研究员，日本北陆先端科学技术大学院大学（JAIST），2024.08 - 2024.09",
     project_1_text: "面向智能家居设备跨协议通信场景，开发基于 Java 的中间件，实现应用端控制指令向智能家居设备控制命令的转换，支持设备发现、远程控制、状态获取与反馈机制。",
     project_1_tags: "Java / MQTT / ECHONET Lite / UDP / TCP / IoT Middleware",
-    project_2_title: "情绪感知智能空间研究原型",
-    project_2_text: "探索基于温度、光照等室内环境数据的非接触式情绪与舒适度估计，并面向自适应室内环境调节进行系统设计。",
-    project_2_tags: "环境传感器 / 机器学习 / 情感计算 / 智能空间",
-
     experience_title: "经历",
     experience_1_title: "青藤教育集团，教学助理",
     experience_1_text: "指导学生准备日本大学院入学考试，定期整理日本大学院入试相关信息，协助学生梳理报考方向、备考节奏与申请要求，将复杂的入试流程转化为清晰可执行的学习与准备方案。",
@@ -154,11 +146,11 @@ const translations = {
 
     education_title: "学歴",
     education_1_title: "千葉大学（日本）",
-    education_1_text: "情報科学専攻 修士課程。",
+    education_1_text: "情報科学専攻 修士課程",
     education_2_title: "北陸大学（日本）",
-    education_2_text: "経営学分野での学部課程。",
+    education_2_text: "経営学 学部課程",
     education_3_title: "大連外国語大学（中国）",
-    education_3_text: "ネットワーク工学 学士。",
+    education_3_text: "ネットワーク工学 学士",
 
     publications_title: "論文・発表",
     paper_1_title: "Application and Security Analysis of Virtual Private Network (VPN) in Network Communication",
@@ -172,10 +164,6 @@ const translations = {
     project_1_meta: "短期研究員、北陸先端科学技術大学院大学（JAIST）、2024.08 - 2024.09",
     project_1_text: "スマートホーム機器のクロスプロトコル通信に向けて、Java ベースのミドルウェアを開発し、機器発見、遠隔制御、状態取得、フィードバック機構を実装しました。",
     project_1_tags: "Java / MQTT / ECHONET Lite / UDP / TCP / IoT Middleware",
-    project_2_title: "感情認識型スマート空間研究プロトタイプ",
-    project_2_text: "温度・照度などの室内環境データを用いた非接触型の感情・快適度推定を検討し、自適応型室内環境制御への応用を目指します。",
-    project_2_tags: "環境センサ / 機械学習 / 感情計算 / スマート空間",
-
     experience_title: "経験",
     experience_1_title: "青藤教育グループ、ティーチングアシスタント",
     experience_1_text: "日本の大学院入試を目指す学生を支援し、入試関連情報を定期的に整理するとともに、志望校選定、準備計画、出願要件の理解をサポートし、複雑な入試プロセスを実行しやすい学習計画へ落とし込みました。",
