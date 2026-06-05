@@ -4,156 +4,211 @@
     <meta charset="UTF-8">
     <title>Zuhe Liu - Academic Homepage</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
     <nav class="navbar">
         <div class="nav-name">Zuhe Liu</div>
 
         <div class="nav-links">
             <a href="#about" data-i18n="nav_about">About</a>
-            <a href="#news" data-i18n="nav_news">News</a>
             <a href="#research" data-i18n="nav_research">Research</a>
+            <a href="#education" data-i18n="nav_education">Education</a>
             <a href="#publications" data-i18n="nav_publications">Publications</a>
             <a href="#projects" data-i18n="nav_projects">Projects</a>
+            <a href="#experience" data-i18n="nav_experience">Experience</a>
             <a href="#contact" data-i18n="nav_contact">Contact</a>
         </div>
 
-        <div class="language-switch">
-            <button onclick="setLanguage('zh')">中文</button>
-            <button onclick="setLanguage('ja')">日本語</button>
-            <button onclick="setLanguage('en')">English</button>
+        <div class="language-switch" aria-label="Language switch">
+            <button type="button" onclick="setLanguage('zh')">中文</button>
+            <button type="button" onclick="setLanguage('ja')">日本語</button>
+            <button type="button" onclick="setLanguage('en')">English</button>
         </div>
     </nav>
 
     <header id="about" class="hero">
         <div class="hero-container">
-
             <div class="photo-box">
-                <img src="assets/profile.jpg" alt="Profile Photo">
+                <img src="assets/profile.jpg" alt="Zuhe Liu profile photo">
             </div>
 
             <div class="intro-box">
+                <p class="eyebrow" data-i18n="hero_eyebrow">Master's Student in Computer Science, Chiba University</p>
                 <h1>Zuhe Liu</h1>
 
                 <p class="subtitle" data-i18n="subtitle">
-                    Researcher in Multimodal Wireless Sensing and Human-State Estimation
+                    Multimodal Wireless Sensing and Human-State Estimation
                 </p>
 
                 <p data-i18n="about_p1">
-                    I am interested in multimodal learning, intelligent perception,
-                    human-state estimation, smart space systems, and medical AI.
+                    I am a master's student in Computer Science at Chiba University, working on multimodal wireless sensing, IoT-based smart spaces, affective computing, and non-contact physiological state estimation.
                 </p>
 
                 <p data-i18n="about_p2">
-                    My current research focuses on integrating environmental sensing,
-                    physiological signals, and machine learning methods to support
-                    robust emotion and physiological state estimation.
+                    My research explores how Wi-Fi CSI, environmental sensors, and machine learning can support robust understanding of physiological changes, location, activity, emotion, and comfort in adaptive indoor environments.
                 </p>
 
-                <p class="profile-links">
-                    <a href="cv.pdf">CV</a> |
-                    <a href="https://github.com/你的GitHub用户名">GitHub</a> |
-                    <a href="#">Google Scholar</a> |
-                    <a href="mailto:your-email@example.com">Email</a>
-                </p>
+                <div class="profile-links">
+                    <a href="https://github.com/TIAVCB-LZH">GitHub</a>
+                    <a href="mailto:liuzuhe200237@gmail.com">Email</a>
+                </div>
             </div>
-
         </div>
     </header>
 
     <main>
-
         <section id="news">
             <h2 data-i18n="news_title">News</h2>
-
-            <ul class="news-list">
+            <ul class="timeline-list">
                 <li>
                     <span class="date">2026.06</span>
-                    <span data-i18n="news_1">Personal academic website launched.</span>
+                    <span data-i18n="news_1">Personal academic website updated with research, education, and project information.</span>
+                </li>
+                <li>
+                    <span class="date">2025.12</span>
+                    <span data-i18n="news_2">Presented research on emotion estimation from indoor environmental sensors at the 2025 IEEE CASS Chiba Workshop.</span>
                 </li>
             </ul>
         </section>
 
         <section id="research">
             <h2 data-i18n="research_title">Research Interests</h2>
-
             <div class="card-grid">
-
                 <div class="card">
                     <h3 data-i18n="research_1_title">Multimodal Wireless Sensing</h3>
                     <p data-i18n="research_1_text">
-                        Integrating Wi-Fi CSI, environmental sensor data, and machine learning
-                        methods to perform non-contact sensing and modeling of physiological
-                        changes, spatial location, and activity states.
+                        Integrating Wi-Fi CSI, environmental sensor data, and machine learning methods to perform non-contact sensing and modeling of physiological changes, spatial location, and activity states.
                     </p>
                 </div>
 
                 <div class="card">
                     <h3 data-i18n="research_2_title">Human-State Estimation</h3>
                     <p data-i18n="research_2_text">
-                        Using Wi-Fi CSI and environmental data to infer HRV-related indicators
-                        such as LF/HF, and further analyze physiological changes, location
-                        changes, and activity states as a basis for emotion and comfort estimation.
+                        Using Wi-Fi CSI and environmental data to infer HRV-related indicators such as LF/HF, and further analyze physiological changes, location changes, and activity states as a basis for emotion and comfort estimation.
                     </p>
                 </div>
 
                 <div class="card">
                     <h3 data-i18n="research_3_title">Smart Space Systems</h3>
                     <p data-i18n="research_3_text">
-                        Building smart space systems that adapt to changes in human state,
-                        such as automatically adjusting lighting, sound, temperature, and
-                        humidity according to users' physiological state, location, and activity.
+                        Building smart space systems that adapt to changes in human state, such as automatically adjusting lighting, sound, temperature, and humidity according to users' physiological state, location, and activity.
                     </p>
                 </div>
 
+                <div class="card">
+                    <h3 data-i18n="research_4_title">Edge Intelligence and IoT</h3>
+                    <p data-i18n="research_4_text">
+                        Designing IoT middleware, device collaboration workflows, and edge-side sensing systems for heterogeneous smart home and smart space environments.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="education">
+            <h2 data-i18n="education_title">Education</h2>
+            <div class="timeline-list">
+                <article class="timeline-item">
+                    <span class="date">2025.04 - 2027.03</span>
+                    <div>
+                        <h3 data-i18n="education_1_title">Chiba University, Japan</h3>
+                        <p data-i18n="education_1_text">M.S. student in Computer Science.</p>
+                    </div>
+                </article>
+                <article class="timeline-item">
+                    <span class="date">2023.04 - 2025.03</span>
+                    <div>
+                        <h3 data-i18n="education_2_title">Hokuriku University, Japan</h3>
+                        <p data-i18n="education_2_text">Undergraduate study in Management.</p>
+                    </div>
+                </article>
+                <article class="timeline-item">
+                    <span class="date">2020.09 - 2025.06</span>
+                    <div>
+                        <h3 data-i18n="education_3_title">Dalian University of Foreign Languages, China</h3>
+                        <p data-i18n="education_3_text">B.Eng. in Network Engineering.</p>
+                    </div>
+                </article>
             </div>
         </section>
 
         <section id="publications">
-            <h2 data-i18n="publications_title">Selected Publications</h2>
+            <h2 data-i18n="publications_title">Publications and Presentations</h2>
 
-            <div class="publication">
-                <h3 data-i18n="paper_1_title">Title of Your Paper</h3>
-                <p>
-                    <strong>Zuhe Liu</strong>, Coauthor Name, Coauthor Name.
-                    Conference or Journal Name, 2026.
+            <article class="publication">
+                <h3 data-i18n="paper_1_title">Application and Security Analysis of Virtual Private Network (VPN) in Network Communication</h3>
+                <p data-i18n="paper_1_meta">
+                    Zuhe Liu. Academic Journal of Computing &amp; Information Science, Vol. 6, Issue 11, 2023, pp. 52-59.
                 </p>
                 <p>
-                    <a href="#">Paper</a> |
-                    <a href="#">Code</a> |
-                    <a href="#">BibTeX</a>
+                    DOI:
+                    <a href="https://doi.org/10.25236/AJCIS.2023.061108">10.25236/AJCIS.2023.061108</a>
                 </p>
-            </div>
+            </article>
+
+            <article class="publication">
+                <h3 data-i18n="presentation_1_title">Emotion Estimation from Indoor Environmental Sensors with Machine and Deep Learning Models</h3>
+                <p data-i18n="presentation_1_meta">
+                    Presenter, 2025 IEEE CASS Chiba Workshop, December 2025.
+                </p>
+                <p data-i18n="presentation_1_text">
+                    Presented a non-invasive emotion recognition study combining indoor environmental sensor data with machine learning and deep learning models.
+                </p>
+            </article>
         </section>
 
         <section id="projects">
             <h2 data-i18n="projects_title">Projects</h2>
 
-            <div class="project">
-                <h3 data-i18n="project_1_title">Emotion-Driven Smart Space Prototype</h3>
+            <article class="project">
+                <h3 data-i18n="project_1_title">MQTT-ECHONET Lite Protocol Conversion Middleware</h3>
+                <p class="meta" data-i18n="project_1_meta">Short-term Researcher, JAIST, August 2024 - September 2024</p>
                 <p data-i18n="project_1_text">
-                    A prototype system integrating environmental sensors, Raspberry Pi,
-                    Arduino, and machine learning to estimate emotion and adjust indoor environments.
+                    Developed Java-based middleware for cross-protocol communication between application clients and smart home devices, supporting device discovery, remote control, status acquisition, and feedback mechanisms.
                 </p>
+                <p class="tags" data-i18n="project_1_tags">Java / MQTT / ECHONET Lite / UDP / TCP / IoT Middleware</p>
+            </article>
+
+            <article class="project">
+                <h3 data-i18n="project_2_title">Emotion-Aware Smart Space Research Prototype</h3>
+                <p data-i18n="project_2_text">
+                    Explores non-contact emotion and comfort estimation from temperature, illuminance, and other indoor environmental data, with the goal of adaptive indoor regulation.
+                </p>
+                <p class="tags" data-i18n="project_2_tags">Environmental Sensors / Machine Learning / Affective Computing / Smart Space</p>
+            </article>
+        </section>
+
+        <section id="experience">
+            <h2 data-i18n="experience_title">Experience</h2>
+            <div class="timeline-list">
+                <article class="timeline-item">
+                    <span class="date">2025.09 - Present</span>
+                    <div>
+                        <h3 data-i18n="experience_1_title">Teaching Assistant, Qingteng Education Group</h3>
+                        <p data-i18n="experience_1_text">Support graduate entrance exam preparation for Japanese universities, teach core topics such as discrete mathematics, and collect admission information.</p>
+                    </div>
+                </article>
+                <article class="timeline-item">
+                    <span class="date">2024</span>
+                    <div>
+                        <h3 data-i18n="experience_2_title">Discrete Mathematics Instructor, Zhiri Education Group</h3>
+                        <p data-i18n="experience_2_text">Designed and delivered tutoring materials for international students preparing for graduate study in Japan.</p>
+                    </div>
+                </article>
             </div>
         </section>
 
         <section id="contact">
             <h2 data-i18n="contact_title">Contact</h2>
-
-            <p>Email: your-email@example.com</p>
-            <p>GitHub: https://github.com/你的GitHub用户名</p>
-            <p data-i18n="location">Location: Japan</p>
+            <p>Email: <a href="mailto:liuzuhe200237@gmail.com">liuzuhe200237@gmail.com</a></p>
+            <p>GitHub: <a href="https://github.com/TIAVCB-LZH">https://github.com/TIAVCB-LZH</a></p>
+            <p data-i18n="location">Location: Chiba, Japan</p>
         </section>
-
     </main>
 
     <footer>
-        <p>© 2026 Zuhe Liu. Powered by GitHub Pages.</p>
+        <p>&copy; 2026 Zuhe Liu. Powered by GitHub Pages.</p>
     </footer>
 
     <script src="script.js"></script>

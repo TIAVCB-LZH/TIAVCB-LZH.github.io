@@ -1,49 +1,99 @@
+:root {
+  --text: #202124;
+  --muted: #5f6368;
+  --line: #dfe3e8;
+  --surface: #ffffff;
+  --soft: #f7f9fb;
+  --accent: #0b63a8;
+  --accent-dark: #084b7f;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  color: #222;
-  background: #f6f6f6;
+  color: var(--text);
+  background: #f3f5f7;
   line-height: 1.65;
 }
 
-/* 顶部导航栏 */
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--accent-dark);
+  text-decoration: underline;
+}
+
 .navbar {
   position: sticky;
   top: 0;
   z-index: 100;
-  background: #ffffff;
-  border-bottom: 1px solid #dddddd;
-  padding: 14px 8%;
+  background: rgba(255, 255, 255, 0.96);
+  border-bottom: 1px solid var(--line);
+  padding: 12px 7%;
   display: flex;
+  gap: 18px;
   justify-content: space-between;
   align-items: center;
+  backdrop-filter: blur(8px);
 }
 
 .nav-name {
   font-size: 21px;
-  font-weight: bold;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.nav-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 16px;
+  justify-content: center;
 }
 
 .nav-links a {
-  margin-left: 18px;
-  text-decoration: none;
   color: #333333;
   font-size: 15px;
 }
 
-.nav-links a:hover {
-  color: #0066aa;
+.language-switch {
+  display: flex;
+  gap: 6px;
+  flex-shrink: 0;
 }
 
-/* 个人介绍区域 */
-.hero {
+.language-switch button {
+  border: 1px solid #c8d0d8;
   background: #ffffff;
-  padding: 60px 8%;
-  border-bottom: 1px solid #e6e6e6;
+  color: #2a2f35;
+  padding: 5px 9px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.language-switch button:hover {
+  background: #eef4f8;
+}
+
+.hero {
+  background: var(--surface);
+  padding: 58px 7%;
+  border-bottom: 1px solid var(--line);
 }
 
 .hero-container {
-  max-width: 1100px;
+  max-width: 1120px;
   margin: 0 auto;
   display: flex;
   gap: 42px;
@@ -53,97 +103,155 @@ body {
 .photo-box img {
   width: 220px;
   height: 220px;
-  border-radius: 12px;
+  border-radius: 8px;
   object-fit: cover;
-  border: 1px solid #dddddd;
+  border: 1px solid var(--line);
 }
 
 .intro-box h1 {
   font-size: 40px;
+  line-height: 1.15;
   margin: 0 0 8px 0;
 }
 
+.eyebrow {
+  margin: 0 0 8px 0;
+  color: var(--accent-dark);
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0;
+}
+
 .subtitle {
-  font-size: 19px;
-  color: #666666;
-  margin-top: 0;
+  font-size: 20px;
+  color: var(--muted);
+  margin: 0 0 18px 0;
+}
+
+.profile-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 22px;
 }
 
 .profile-links a {
-  color: #0066aa;
-  text-decoration: none;
+  border: 1px solid #cbd5df;
+  border-radius: 6px;
+  padding: 7px 11px;
+  background: #ffffff;
+  font-weight: 700;
 }
 
-/* 主体 */
 main {
-  max-width: 1100px;
-  margin: 40px auto;
-  padding: 0 8%;
+  max-width: 1120px;
+  margin: 34px auto;
+  padding: 0 7%;
 }
 
 section {
-  background: #ffffff;
-  padding: 30px;
-  margin-bottom: 28px;
-  border-radius: 10px;
-  border: 1px solid #e3e3e3;
+  background: var(--surface);
+  padding: 28px;
+  margin-bottom: 24px;
+  border-radius: 8px;
+  border: 1px solid var(--line);
 }
 
 section h2 {
-  font-size: 27px;
-  margin-top: 0;
-  border-bottom: 2px solid #dddddd;
+  font-size: 25px;
+  line-height: 1.25;
+  margin: 0 0 20px 0;
   padding-bottom: 8px;
+  border-bottom: 2px solid var(--line);
 }
 
-/* News */
-.news-list {
-  padding-left: 0;
+h3 {
+  line-height: 1.35;
+}
+
+.timeline-list {
+  display: grid;
+  gap: 16px;
+  padding: 0;
+  margin: 0;
   list-style: none;
 }
 
-.news-list li {
-  margin-bottom: 12px;
+.timeline-list li,
+.timeline-item {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  gap: 18px;
+  align-items: start;
+}
+
+.timeline-item h3 {
+  margin: 0 0 5px 0;
+}
+
+.timeline-item p {
+  margin: 0;
 }
 
 .date {
-  font-weight: bold;
-  display: inline-block;
-  width: 90px;
+  color: var(--accent-dark);
+  font-weight: 700;
 }
 
-/* Research Cards */
-.card-grid {
+.card-grid,
+.skill-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 18px;
 }
 
-.card {
-  background: #fafafa;
-  border: 1px solid #dddddd;
+.card,
+.skill-grid > div {
+  background: var(--soft);
+  border: 1px solid var(--line);
   border-radius: 8px;
   padding: 18px;
 }
 
-.card h3 {
-  margin-top: 0;
+.card h3,
+.skill-grid h3 {
+  margin: 0 0 8px 0;
 }
 
-/* Publications and Projects */
+.card p,
+.skill-grid p {
+  margin: 0;
+}
+
 .publication,
 .project {
-  margin-bottom: 24px;
+  margin-bottom: 22px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--line);
+}
+
+.publication:last-child,
+.project:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: 0;
 }
 
 .publication h3,
 .project h3 {
-  margin-bottom: 6px;
+  margin: 0 0 7px 0;
 }
 
-.publication a {
-  color: #0066aa;
-  text-decoration: none;
+.publication p,
+.project p {
+  margin: 7px 0;
+}
+
+.meta,
+.tags {
+  color: var(--muted);
+  font-size: 14px;
 }
 
 footer {
@@ -153,53 +261,55 @@ footer {
   font-size: 14px;
 }
 
-/* 手机适配 */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
   .navbar {
     display: block;
   }
 
   .nav-links {
+    justify-content: flex-start;
     margin-top: 10px;
   }
 
-  .nav-links a {
-    display: inline-block;
-    margin: 5px 12px 5px 0;
+  .language-switch {
+    margin-top: 10px;
   }
 
   .hero-container {
     flex-direction: column;
-    text-align: center;
+    align-items: flex-start;
   }
 
-  .card-grid {
+  .card-grid,
+  .skill-grid {
     grid-template-columns: 1fr;
   }
 }
 
-/* 语言切换 */
-.language-switch {
-    margin-left: 20px;
-}
+@media screen and (max-width: 640px) {
+  .hero,
+  main,
+  .navbar {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
 
-    .language-switch button {
-        border: 1px solid #cccccc;
-        background: #ffffff;
-        padding: 5px 9px;
-        margin-left: 4px;
-        border-radius: 5px;
-        cursor: pointer;
-        font-size: 13px;
-    }
+  section {
+    padding: 22px;
+  }
 
-        .language-switch button:hover {
-            background: #eeeeee;
-        }
+  .intro-box h1 {
+    font-size: 34px;
+  }
 
-@media screen and (max-width: 800px) {
-    .language-switch {
-        margin-top: 10px;
-        margin-left: 0;
-    }
+  .photo-box img {
+    width: 180px;
+    height: 180px;
+  }
+
+  .timeline-list li,
+  .timeline-item {
+    grid-template-columns: 1fr;
+    gap: 4px;
+  }
 }
