@@ -54,7 +54,7 @@ const translations = {
 
     experience_title: "Experience",
     experience_1_title: "Teaching Assistant, Qingteng Education Group",
-    experience_1_text: "Support graduate entrance exam preparation for Japanese universities, teach core topics such as discrete mathematics, and collect admission information.",
+    experience_1_text: "Supported students preparing for Japanese graduate school entrance examinations by organizing admissions information, refining preparation plans, and translating complex application requirements into practical study guidance.",
     experience_2_title: "Discrete Mathematics Instructor, Zhiri Education Group",
     experience_2_text: "Designed and delivered tutoring materials for international students preparing for graduate study in Japan.",
     contact_title: "Contact",
@@ -116,7 +116,7 @@ const translations = {
 
     experience_title: "经历",
     experience_1_title: "青藤教育集团，教学助理",
-    experience_1_text: "指导学生准备日本大学院入学考试，讲授离散数学等核心课程，并定期整理日本大学院入试相关信息。",
+    experience_1_text: "指导学生准备日本大学院入学考试，定期整理日本大学院入试相关信息，协助学生梳理报考方向、备考节奏与申请要求，将复杂的入试流程转化为清晰可执行的学习与准备方案。",
     experience_2_title: "知日教育集团，离散数学课程讲师",
     experience_2_text: "独立设计面向日本留学生的离散数学辅导课程大纲与教学内容，帮助学生巩固数学基础。",
     contact_title: "联系方式",
@@ -178,7 +178,7 @@ const translations = {
 
     experience_title: "経験",
     experience_1_title: "青藤教育グループ、ティーチングアシスタント",
-    experience_1_text: "日本の大学院入試対策を支援し、離散数学などの主要科目を指導するとともに、大学院入試情報を定期的に整理しています。",
+    experience_1_text: "日本の大学院入試を目指す学生を支援し、入試関連情報を定期的に整理するとともに、志望校選定、準備計画、出願要件の理解をサポートし、複雑な入試プロセスを実行しやすい学習計画へ落とし込みました。",
     experience_2_title: "知日教育グループ、離散数学講師",
     experience_2_text: "日本留学を目指す学生向けに離散数学の補習カリキュラムと教材を設計し、数学基礎の定着を支援しました。",
     contact_title: "連絡先",
