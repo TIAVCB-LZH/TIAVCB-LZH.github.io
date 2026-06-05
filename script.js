@@ -133,9 +133,9 @@ const translations = {
     nav_contact: "連絡先",
 
     display_name: "劉祖赫(リュウ　ソカク)",
-    hero_eyebrow: "千葉大学 コンピュータサイエンス専攻 修士課程",
+    hero_eyebrow: "千葉大学 情報科学専攻 修士課程",
     subtitle: "マルチモーダル無線センシングと人体状態推定",
-    about_p1: "千葉大学コンピュータサイエンス専攻の修士課程に在籍し、マルチモーダル無線センシング、IoT ベースのスマート空間、感情計算、非接触型生理状態推定に関心を持っています。",
+    about_p1: "千葉大学情報科学専攻の修士課程に在籍し、マルチモーダル無線センシング、IoT ベースのスマート空間、感情計算、非接触型生理状態推定に関心を持っています。",
     about_p2: "Wi-Fi CSI、環境センサデータ、機械学習を組み合わせ、人体の生理的変化、位置、動作、感情、快適度をより安定して理解し、自適応型スマート空間に応用することを目指しています。",
 
     news_title: "ニュース",
@@ -154,7 +154,7 @@ const translations = {
 
     education_title: "学歴",
     education_1_title: "千葉大学（日本）",
-    education_1_text: "コンピュータサイエンス専攻 修士課程。",
+    education_1_text: "情報科学専攻 修士課程。",
     education_2_title: "北陸大学（日本）",
     education_2_text: "経営学分野での学部課程。",
     education_3_title: "大連外国語大学（中国）",
