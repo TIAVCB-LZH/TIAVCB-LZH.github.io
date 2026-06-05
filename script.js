@@ -8,6 +8,7 @@ const translations = {
     nav_experience: "Experience",
     nav_contact: "Contact",
 
+    display_name: "Zuhe Liu",
     hero_eyebrow: "Master's Student in Computer Science, Chiba University",
     subtitle: "Multimodal Wireless Sensing and Human-State Estimation",
     about_p1: "I am a master's student in Computer Science at Chiba University, working on multimodal wireless sensing, IoT-based smart spaces, affective computing, and non-contact physiological state estimation.",
@@ -69,6 +70,7 @@ const translations = {
     nav_experience: "经历",
     nav_contact: "联系方式",
 
+    display_name: "刘祖赫",
     hero_eyebrow: "千叶大学计算机科学硕士研究生",
     subtitle: "多模态无线感知与人体状态估计",
     about_p1: "我目前就读于日本千叶大学计算机科学专业，研究兴趣包括多模态无线感知、物联网智能空间、情感计算以及非接触式生理状态估计。",
@@ -130,6 +132,7 @@ const translations = {
     nav_experience: "経験",
     nav_contact: "連絡先",
 
+    display_name: "劉祖赫(リュウ　ソカク)",
     hero_eyebrow: "千葉大学 コンピュータサイエンス専攻 修士課程",
     subtitle: "マルチモーダル無線センシングと人体状態推定",
     about_p1: "千葉大学コンピュータサイエンス専攻の修士課程に在籍し、マルチモーダル無線センシング、IoT ベースのスマート空間、感情計算、非接触型生理状態推定に関心を持っています。",
