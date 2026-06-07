@@ -76,6 +76,20 @@
 
         <section id="research">
             <h2 data-i18n="research_title">Research Interests</h2>
+            <div class="research-statement">
+                <h3 data-i18n="research_statement_title">Research Statement</h3>
+                <p data-i18n="research_statement_text">
+                    My research asks how non-contact sensing can understand human physiological and behavioral states in everyday indoor spaces. I focus on combining Wi-Fi CSI, environmental sensor data, and machine learning to estimate physiological changes, location, activity, emotion, and comfort without relying only on wearable devices. The long-term goal is to build smart spaces that can perceive human state and adapt lighting, sound, temperature, and humidity in a context-aware way.
+                </p>
+            </div>
+            <div class="keyword-list" aria-label="Research keywords">
+                <span>Wi-Fi CSI</span>
+                <span>Non-contact Sensing</span>
+                <span>Human-State Estimation</span>
+                <span>Smart Space</span>
+                <span>Affective Computing</span>
+                <span>IoT Middleware</span>
+            </div>
             <div class="card-grid">
                 <div class="card">
                     <h3 data-i18n="research_1_title">Multimodal Wireless Sensing</h3>
@@ -172,6 +186,11 @@
                 <p data-i18n="project_1_text">
                     Developed Java-based middleware for cross-protocol communication between application clients and smart home devices, supporting device discovery, remote control, status acquisition, and feedback mechanisms.
                 </p>
+                <ul class="detail-list">
+                    <li data-i18n="project_1_detail_1">Implemented device discovery using UDP broadcast and ECHONET Lite message handling.</li>
+                    <li data-i18n="project_1_detail_2">Mapped MQTT control topics to ECHONET Lite GET, SET, and OBSERVE commands.</li>
+                    <li data-i18n="project_1_detail_3">Designed status acquisition and feedback flows for smart home device monitoring.</li>
+                </ul>
                 <p class="tags" data-i18n="project_1_tags">Java / MQTT / ECHONET Lite / UDP / TCP / IoT Middleware</p>
             </article>
 
@@ -207,8 +226,9 @@
 
     <footer>
         <p>&copy; 2026 Zuhe Liu. Powered by GitHub Pages.</p>
+        <p data-i18n="footer_updated">Last updated: June 2026</p>
     </footer>
 
-    <script src="script.js?v=20260607-presentations"></script>
+    <script src="script.js?v=20260607-research-details"></script>
 </body>
 </html>

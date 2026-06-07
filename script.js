@@ -20,6 +20,8 @@ const translations = {
     news_2: "Presented research on emotion estimation from indoor environmental sensors at the 2025 IEEE CASS Chiba Workshop.",
 
     research_title: "Research Interests",
+    research_statement_title: "Research Statement",
+    research_statement_text: "My research asks how non-contact sensing can understand human physiological and behavioral states in everyday indoor spaces. I focus on combining Wi-Fi CSI, environmental sensor data, and machine learning to estimate physiological changes, location, activity, emotion, and comfort without relying only on wearable devices. The long-term goal is to build smart spaces that can perceive human state and adapt lighting, sound, temperature, and humidity in a context-aware way.",
     research_1_title: "Multimodal Wireless Sensing",
     research_1_text: "Integrating Wi-Fi CSI, environmental sensor data, and machine learning methods to perform non-contact sensing and modeling of physiological changes, spatial location, and activity states.",
     research_2_title: "Human-State Estimation",
@@ -49,6 +51,9 @@ const translations = {
     project_1_title: "MQTT-ECHONET Lite Protocol Conversion Middleware",
     project_1_meta: "Short-term Researcher, JAIST, August 2024 - September 2024",
     project_1_text: "Developed Java-based middleware for cross-protocol communication between application clients and smart home devices, supporting device discovery, remote control, status acquisition, and feedback mechanisms.",
+    project_1_detail_1: "Implemented device discovery using UDP broadcast and ECHONET Lite message handling.",
+    project_1_detail_2: "Mapped MQTT control topics to ECHONET Lite GET, SET, and OBSERVE commands.",
+    project_1_detail_3: "Designed status acquisition and feedback flows for smart home device monitoring.",
     project_1_tags: "Java / MQTT / ECHONET Lite / UDP / TCP / IoT Middleware",
     experience_title: "Experience",
     experience_1_title: "Teaching Assistant, Qingteng Education Group",
@@ -56,7 +61,8 @@ const translations = {
     experience_2_title: "Discrete Mathematics Instructor, Zhiri Education Group",
     experience_2_text: "Designed and delivered tutoring materials for international students preparing for graduate study in Japan.",
     contact_title: "Contact",
-    location: "Location: Chiba, Japan"
+    location: "Location: Chiba, Japan",
+    footer_updated: "Last updated: June 2026"
   },
 
   zh: {
@@ -80,6 +86,8 @@ const translations = {
     news_2: "在 2025 IEEE CASS Chiba Workshop 发表室内环境传感器情绪估计相关研究。",
 
     research_title: "研究方向",
+    research_statement_title: "研究概述",
+    research_statement_text: "我的研究关注如何在日常室内空间中，通过非接触式感知理解人体的生理与行为状态。我主要结合 Wi-Fi CSI、环境传感器数据与机器学习方法，在不完全依赖可穿戴设备的情况下估计人体生理变化、空间位置、动作状态、情绪与舒适度。长期目标是构建能够感知人体状态并根据场景自适应调节照明、声音、温度和湿度的智能空间系统。",
     research_1_title: "多模态无线感知",
     research_1_text: "结合 Wi-Fi CSI、环境传感器数据与机器学习方法，对人体生理变化、空间位置和动作状态进行非接触式感知与建模。",
     research_2_title: "人体状态估计",
@@ -109,6 +117,9 @@ const translations = {
     project_1_title: "MQTT-ECHONET Lite 协议转换中间件",
     project_1_meta: "短期研究员，日本北陆先端科学技术大学院大学（JAIST），2024.08 - 2024.09",
     project_1_text: "面向智能家居设备跨协议通信场景，开发基于 Java 的中间件，实现应用端控制指令向智能家居设备控制命令的转换，支持设备发现、远程控制、状态获取与反馈机制。",
+    project_1_detail_1: "基于 UDP 广播实现设备发现，并处理 ECHONET Lite 消息解析流程。",
+    project_1_detail_2: "将 MQTT 控制主题映射为 ECHONET Lite 的 GET、SET 与 OBSERVE 指令。",
+    project_1_detail_3: "设计智能家居设备状态获取与反馈流程，用于设备运行状态监测。",
     project_1_tags: "Java / MQTT / ECHONET Lite / UDP / TCP / IoT Middleware",
     experience_title: "经历",
     experience_1_title: "青藤教育集团，教学助理",
@@ -116,7 +127,8 @@ const translations = {
     experience_2_title: "知日教育集团，离散数学课程讲师",
     experience_2_text: "独立设计面向日本留学生的离散数学辅导课程大纲与教学内容，帮助学生巩固数学基础。",
     contact_title: "联系方式",
-    location: "所在地：日本千叶"
+    location: "所在地：日本千叶",
+    footer_updated: "最后更新：2026年6月"
   },
 
   ja: {
@@ -140,6 +152,8 @@ const translations = {
     news_2: "2025 IEEE CASS Chiba Workshop で室内環境センサを用いた感情推定に関する研究を発表しました。",
 
     research_title: "研究分野",
+    research_statement_title: "研究概要",
+    research_statement_text: "私の研究は、日常的な室内空間において、非接触センシングによって人間の生理状態や行動状態をどのように理解できるかに焦点を当てています。Wi-Fi CSI、環境センサデータ、機械学習を組み合わせ、ウェアラブル機器だけに依存せずに、生理的変化、位置、動作、感情、快適度を推定することを目指しています。長期的には、人間の状態を認識し、照明、音、温度、湿度を文脈に応じて調整できるスマート空間の構築を目標としています。",
     research_1_title: "マルチモーダル無線センシング",
     research_1_text: "Wi-Fi CSI、環境センサデータ、機械学習手法を組み合わせ、人体の生理的変化、空間位置、動作状態を非接触でセンシングし、モデル化します。",
     research_2_title: "人体状態推定",
@@ -169,6 +183,9 @@ const translations = {
     project_1_title: "MQTT-ECHONET Lite プロトコル変換ミドルウェア",
     project_1_meta: "短期研究員、北陸先端科学技術大学院大学（JAIST）、2024.08 - 2024.09",
     project_1_text: "スマートホーム機器のクロスプロトコル通信に向けて、Java ベースのミドルウェアを開発し、機器発見、遠隔制御、状態取得、フィードバック機構を実装しました。",
+    project_1_detail_1: "UDP ブロードキャストを用いた機器発見と ECHONET Lite メッセージ処理を実装しました。",
+    project_1_detail_2: "MQTT の制御トピックを ECHONET Lite の GET、SET、OBSERVE コマンドに対応付けました。",
+    project_1_detail_3: "スマートホーム機器の状態監視に向けて、状態取得とフィードバックの流れを設計しました。",
     project_1_tags: "Java / MQTT / ECHONET Lite / UDP / TCP / IoT Middleware",
     experience_title: "経験",
     experience_1_title: "青藤教育グループ、ティーチングアシスタント",
@@ -176,7 +193,8 @@ const translations = {
     experience_2_title: "知日教育グループ、離散数学講師",
     experience_2_text: "日本留学を目指す学生向けに離散数学の補習カリキュラムと教材を設計し、数学基礎の定着を支援しました。",
     contact_title: "連絡先",
-    location: "所在地：日本 千葉"
+    location: "所在地：日本 千葉",
+    footer_updated: "最終更新：2026年6月"
   }
 };
 
