@@ -231,6 +231,10 @@ h3 {
   z-index: 1;
 }
 
+#news .timeline-list li:not(:first-child)::before {
+  display: none;
+}
+
 #news .timeline-list li::after {
   align-self: stretch;
   background: #d4e3ef;
