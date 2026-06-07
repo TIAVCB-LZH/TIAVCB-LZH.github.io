@@ -252,6 +252,10 @@ h3 {
   grid-row: 1;
 }
 
+#news .timeline-list li:not(:first-child) .date {
+  color: var(--text);
+}
+
 #news .timeline-list li span:last-child {
   grid-column: 3;
   grid-row: 1;
