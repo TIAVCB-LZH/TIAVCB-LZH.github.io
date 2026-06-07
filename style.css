@@ -164,7 +164,7 @@ main {
 section {
   background: var(--surface);
   padding: 28px;
-  margin-bottom: 24px;
+  margin-bottom: 64px;
   border-radius: 8px;
   border: 1px solid var(--line);
   box-shadow: var(--shadow-tiny);
@@ -199,6 +199,9 @@ h3 {
 }
 
 #news .timeline-list {
+  max-height: 190px;
+  overflow-y: auto;
+  padding-right: 10px;
   position: relative;
 }
 
@@ -275,26 +278,6 @@ h3 {
   padding: 5px 8px;
 }
 
-.current-research {
-  border: 1px solid var(--line);
-  border-radius: 8px;
-  margin-bottom: 20px;
-  padding: 18px;
-}
-
-.current-research h3 {
-  margin: 0 0 12px 0;
-}
-
-.research-focus h4 {
-  margin: 0 0 10px 0;
-  color: var(--accent-dark);
-}
-
-.research-focus p {
-  margin: 7px 0;
-}
-
 .card-grid,
 .skill-grid {
   display: grid;
@@ -336,18 +319,20 @@ h3 {
 }
 
 .publication,
-.project {
+.project,
+.timeline-item {
+  background: #ffffff;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  box-shadow: 0 8px 18px rgba(32, 33, 36, 0.04);
   margin-bottom: 22px;
-  padding: 0 0 20px 16px;
-  border-bottom: 1px solid var(--line);
-  border-left: 3px solid #cfe3f2;
+  padding: 20px;
 }
 
 .publication:last-child,
-.project:last-child {
+.project:last-child,
+.timeline-item:last-child {
   margin-bottom: 0;
-  padding-bottom: 0;
-  border-bottom: 0;
 }
 
 .publication h3,
