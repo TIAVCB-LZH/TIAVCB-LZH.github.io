@@ -40,14 +40,15 @@ a:hover {
   position: sticky;
   top: 0;
   z-index: 100;
-  background: rgba(255, 255, 255, 0.96);
-  border-bottom: 1px solid var(--line);
+  background: linear-gradient(180deg, rgba(245, 249, 252, 0.98), rgba(232, 240, 247, 0.98));
+  border-bottom: 1px solid #c8d8e4;
   padding: 12px 7%;
   display: flex;
   gap: 18px;
   justify-content: space-between;
   align-items: center;
   backdrop-filter: blur(8px);
+  box-shadow: 0 8px 22px rgba(32, 33, 36, 0.08);
 }
 
 .nav-name {
@@ -199,9 +200,9 @@ h3 {
 }
 
 #news .timeline-list {
-  max-height: 190px;
+  max-height: 210px;
   overflow-y: auto;
-  padding-right: 10px;
+  padding: 4px 10px 4px 0;
   position: relative;
 }
 
@@ -209,13 +210,14 @@ h3 {
   background: #d4e3ef;
   bottom: 4px;
   content: "";
-  left: 66px;
+  left: 126px;
   position: absolute;
   top: 4px;
   width: 2px;
 }
 
 #news .timeline-list li {
+  grid-template-columns: 100px 18px 1fr;
   position: relative;
 }
 
@@ -225,11 +227,20 @@ h3 {
   border-radius: 50%;
   box-shadow: 0 0 0 1px #b9d4e8;
   content: "";
+  grid-column: 2;
   height: 10px;
-  left: 61px;
-  position: absolute;
-  top: 7px;
+  margin-top: 7px;
+  position: relative;
   width: 10px;
+  z-index: 1;
+}
+
+#news .timeline-list li .date {
+  grid-column: 1;
+}
+
+#news .timeline-list li span:last-child {
+  grid-column: 3;
 }
 
 .timeline-item h3 {
@@ -425,8 +436,20 @@ footer p {
     gap: 4px;
   }
 
-  #news .timeline-list::before,
-  #news .timeline-list li::before {
+  #news .timeline-list::before {
     display: none;
+  }
+
+  #news .timeline-list li {
+    grid-template-columns: 18px 1fr;
+  }
+
+  #news .timeline-list li::before {
+    grid-column: 1;
+  }
+
+  #news .timeline-list li .date,
+  #news .timeline-list li span:last-child {
+    grid-column: 2;
   }
 }
