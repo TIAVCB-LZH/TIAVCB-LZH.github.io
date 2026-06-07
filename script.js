@@ -39,7 +39,6 @@ const translations = {
     research_4_text: "Designing IoT middleware, device collaboration workflows, and edge-side sensing systems for heterogeneous smart home and smart space environments.",
 
     education_title: "Education",
-    education_note: "Completed a 2+2 dual-degree undergraduate program between Dalian University of Foreign Languages and Hokuriku University.",
     education_1_title: "Chiba University, Japan",
     education_1_text: "M.S. student in Computer Science",
     education_2_title: "Hokuriku University, Japan",
@@ -113,7 +112,6 @@ const translations = {
     research_4_text: "面向异构智能家居与智能空间环境，设计物联网中间件、设备协同流程与边缘侧感知系统。",
 
     education_title: "教育背景",
-    education_note: "完成大连外国语大学与日本北陆大学之间的 2+2 双学位本科项目。",
     education_1_title: "日本 千叶大学",
     education_1_text: "计算机科学 硕士研究生",
     education_2_title: "日本 北陆大学",
@@ -187,7 +185,6 @@ const translations = {
     research_4_text: "異種スマートホーム・スマート空間環境に向けて、IoT ミドルウェア、デバイス連携フロー、エッジ側センシングシステムを設計します。",
 
     education_title: "学歴",
-    education_note: "大連外国語大学と北陸大学による 2+2 ダブルディグリー学部プログラムを修了しました。",
     education_1_title: "千葉大学（日本）",
     education_1_text: "情報科学専攻 修士",
     education_2_title: "北陸大学（日本）",
@@ -231,6 +228,12 @@ function setLanguage(language) {
     if (dictionary[key]) {
       element.textContent = dictionary[key];
     }
+  });
+
+  document.querySelectorAll(".language-switch button").forEach(button => {
+    const isActive = button.dataset.language === language;
+    button.classList.toggle("active", isActive);
+    button.setAttribute("aria-pressed", String(isActive));
   });
 
   localStorage.setItem("language", language);

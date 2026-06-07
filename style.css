@@ -6,6 +6,8 @@
   --soft: #f7f9fb;
   --accent: #0b63a8;
   --accent-dark: #084b7f;
+  --shadow-soft: 0 12px 30px rgba(32, 33, 36, 0.08);
+  --shadow-tiny: 0 6px 16px rgba(32, 33, 36, 0.07);
 }
 
 * {
@@ -86,6 +88,14 @@ a:hover {
   background: #eef4f8;
 }
 
+.language-switch button.active {
+  background: #dcecf7;
+  border-color: #8db8d6;
+  color: var(--accent-dark);
+  box-shadow: inset 0 2px 4px rgba(8, 75, 127, 0.2);
+  font-weight: 700;
+}
+
 .hero {
   background: var(--surface);
   padding: 58px 7%;
@@ -106,6 +116,7 @@ a:hover {
   border-radius: 8px;
   object-fit: cover;
   border: 1px solid var(--line);
+  box-shadow: var(--shadow-soft);
 }
 
 .intro-box h1 {
@@ -156,6 +167,7 @@ section {
   margin-bottom: 24px;
   border-radius: 8px;
   border: 1px solid var(--line);
+  box-shadow: var(--shadow-tiny);
 }
 
 section h2 {
@@ -164,11 +176,6 @@ section h2 {
   margin: 0 0 20px 0;
   padding-bottom: 8px;
   border-bottom: 2px solid var(--line);
-}
-
-.section-note {
-  color: var(--muted);
-  margin: -6px 0 18px 0;
 }
 
 h3 {
@@ -189,6 +196,37 @@ h3 {
   grid-template-columns: 150px 1fr;
   gap: 18px;
   align-items: start;
+}
+
+#news .timeline-list {
+  position: relative;
+}
+
+#news .timeline-list::before {
+  background: #d4e3ef;
+  bottom: 4px;
+  content: "";
+  left: 66px;
+  position: absolute;
+  top: 4px;
+  width: 2px;
+}
+
+#news .timeline-list li {
+  position: relative;
+}
+
+#news .timeline-list li::before {
+  background: var(--accent);
+  border: 3px solid #ffffff;
+  border-radius: 50%;
+  box-shadow: 0 0 0 1px #b9d4e8;
+  content: "";
+  height: 10px;
+  left: 61px;
+  position: absolute;
+  top: 7px;
+  width: 10px;
 }
 
 .timeline-item h3 {
@@ -264,12 +302,27 @@ h3 {
   gap: 18px;
 }
 
+.card-grid {
+  counter-reset: research-card;
+}
+
 .card,
 .skill-grid > div {
   background: var(--soft);
   border: 1px solid var(--line);
   border-radius: 8px;
   padding: 18px;
+  position: relative;
+}
+
+.card::before {
+  color: var(--accent);
+  content: "0" counter(research-card);
+  counter-increment: research-card;
+  display: block;
+  font-size: 13px;
+  font-weight: 700;
+  margin-bottom: 8px;
 }
 
 .card h3,
@@ -285,8 +338,9 @@ h3 {
 .publication,
 .project {
   margin-bottom: 22px;
-  padding-bottom: 20px;
+  padding: 0 0 20px 16px;
   border-bottom: 1px solid var(--line);
+  border-left: 3px solid #cfe3f2;
 }
 
 .publication:last-child,
@@ -298,6 +352,8 @@ h3 {
 
 .publication h3,
 .project h3 {
+  color: var(--accent-dark);
+  font-size: 20px;
   margin: 0 0 7px 0;
 }
 
@@ -382,5 +438,10 @@ footer p {
   .timeline-item {
     grid-template-columns: 1fr;
     gap: 4px;
+  }
+
+  #news .timeline-list::before,
+  #news .timeline-list li::before {
+    display: none;
   }
 }
