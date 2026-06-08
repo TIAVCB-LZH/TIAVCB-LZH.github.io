@@ -456,22 +456,32 @@ footer p {
 
   #news .timeline-list li {
     grid-template-columns: 28px 1fr;
+    grid-template-rows: auto auto;
+    gap: 2px 10px;
     min-height: 68px;
   }
 
   #news .timeline-list li::before {
-    grid-column: 2;
+    grid-column: 1;
+    grid-row: 1;
     justify-self: start;
-    margin-left: -18px;
+    margin-left: 0;
     margin-right: 0;
+    margin-top: 2px;
   }
 
   #news .timeline-list li::after {
     grid-column: 1;
+    grid-row: 1 / span 2;
   }
 
-  #news .timeline-list li .date,
+  #news .timeline-list li .date {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
   #news .timeline-list li span:last-child {
     grid-column: 2;
+    grid-row: 2;
   }
 }
