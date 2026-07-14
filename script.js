@@ -17,6 +17,7 @@ const translations = {
     news_2: "Presented a poster at the 2025 IEEE CASS Chiba Workshop.",
     news_3: "Started master's research on Wi-Fi CSI-based human-state estimation.",
     news_4: "Completed an IoT middleware project using MQTT and ECHONET Lite.",
+    news_5: "Co-authored an IEICE technical report on group emotion estimation using environmental data.",
 
     research_title: "Research Interests",
     research_statement_title: "Research Statement",
@@ -38,8 +39,10 @@ const translations = {
 
     presentations_title: "Academic Presentations",
     publications_title: "Publications",
-    paper_1_title: "Application and Security Analysis of Virtual Private Network (VPN) in Network Communication",
-    paper_1_meta: "Zuhe Liu. Academic Journal of Computing & Information Science, Vol. 6, Issue 11, 2023, pp. 52-59.",
+    paper_1_title: "A Study on Group Emotion Estimation Using Environmental Data",
+    paper_1_meta: "Jingshi Qian, Zuhe Liu, and Nobuyoshi Komuro. IEICE Technical Report, vol. 126, no. 19, CS2026-5, pp. 20-23, May 2026.",
+    paper_2_title: "Application and Security Analysis of Virtual Private Network (VPN) in Network Communication",
+    paper_2_meta: "Zuhe Liu. Academic Journal of Computing & Information Science, Vol. 6, Issue 11, 2023, pp. 52-59.",
     presentation_1_title: "Emotion Estimation from Indoor Environmental Sensors with Machine and Deep Learning Models",
     presentation_1_meta: "Presenter, 2025 IEEE CASS Chiba Workshop, December 2025.",
     presentation_1_text: "Presented a non-invasive emotion recognition study combining indoor environmental sensor data with machine learning and deep learning models.",
@@ -80,6 +83,7 @@ const translations = {
     news_2: "在 2025 IEEE CASS Chiba Workshop 进行海报发表。",
     news_3: "开始基于 Wi-Fi CSI 的人体状态估计方向硕士研究。",
     news_4: "完成基于 MQTT 与 ECHONET Lite 的 IoT 中间件项目。",
+    news_5: "Co-authored an IEICE technical report on group emotion estimation using environmental data.",
 
     research_title: "研究方向",
     research_statement_title: "研究概述",
@@ -101,8 +105,10 @@ const translations = {
 
     presentations_title: "学术发表",
     publications_title: "论文",
-    paper_1_title: "Application and Security Analysis of Virtual Private Network (VPN) in Network Communication",
-    paper_1_meta: "Zuhe Liu. Academic Journal of Computing & Information Science, Vol. 6, Issue 11, 2023, pp. 52-59.",
+    paper_1_title: "A Study on Group Emotion Estimation Using Environmental Data",
+    paper_1_meta: "Jingshi Qian, Zuhe Liu, and Nobuyoshi Komuro. IEICE Technical Report, vol. 126, no. 19, CS2026-5, pp. 20-23, May 2026.",
+    paper_2_title: "Application and Security Analysis of Virtual Private Network (VPN) in Network Communication",
+    paper_2_meta: "Zuhe Liu. Academic Journal of Computing & Information Science, Vol. 6, Issue 11, 2023, pp. 52-59.",
     presentation_1_title: "Emotion Estimation from Indoor Environmental Sensors with Machine and Deep Learning Models",
     presentation_1_meta: "发表者，2025 IEEE CASS Chiba Workshop，2025 年 12 月。",
     presentation_1_text: "结合室内环境传感器采集的温度、光照等多维数据与机器学习、深度学习模型，进行非侵入式情绪识别研究展示。",
@@ -143,6 +149,7 @@ const translations = {
     news_2: "2025 IEEE CASS Chiba Workshop でポスター発表を行いました。",
     news_3: "Wi-Fi CSI に基づく人体状態推定に関する修士研究を開始しました。",
     news_4: "MQTT と ECHONET Lite を用いた IoT ミドルウェアプロジェクトを完了しました。",
+    news_5: "Co-authored an IEICE technical report on group emotion estimation using environmental data.",
 
     research_title: "研究分野",
     research_statement_title: "研究概要",
@@ -164,8 +171,10 @@ const translations = {
 
     presentations_title: "発表",
     publications_title: "論文",
-    paper_1_title: "Application and Security Analysis of Virtual Private Network (VPN) in Network Communication",
-    paper_1_meta: "Zuhe Liu. Academic Journal of Computing & Information Science, Vol. 6, Issue 11, 2023, pp. 52-59.",
+    paper_1_title: "A Study on Group Emotion Estimation Using Environmental Data",
+    paper_1_meta: "Jingshi Qian, Zuhe Liu, and Nobuyoshi Komuro. IEICE Technical Report, vol. 126, no. 19, CS2026-5, pp. 20-23, May 2026.",
+    paper_2_title: "Application and Security Analysis of Virtual Private Network (VPN) in Network Communication",
+    paper_2_meta: "Zuhe Liu. Academic Journal of Computing & Information Science, Vol. 6, Issue 11, 2023, pp. 52-59.",
     presentation_1_title: "Emotion Estimation from Indoor Environmental Sensors with Machine and Deep Learning Models",
     presentation_1_meta: "発表者、2025 IEEE CASS Chiba Workshop、2025 年 12 月。",
     presentation_1_text: "室内環境センサから取得した温度・照度などの多次元データと機械学習・深層学習モデルを組み合わせ、非侵襲的な感情認識研究を発表しました。",
