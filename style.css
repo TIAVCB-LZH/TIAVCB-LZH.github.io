@@ -135,6 +135,14 @@ a:hover {
   letter-spacing: 0;
 }
 
+
+.name-aliases {
+  margin: -0.35rem 0 1rem;
+  color: var(--muted);
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
 .subtitle {
   font-size: 20px;
   color: var(--muted);
