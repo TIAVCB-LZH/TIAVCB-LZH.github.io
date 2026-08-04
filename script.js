@@ -7,7 +7,6 @@ const translations = {
     nav_contact: "Contact",
 
     display_name: "Zuhe Liu",
-    name_aliases: "\u5218\u7956\u8d6b / \u5289\u7956\u8d6b / \u308a\u3085\u3046\u305d\u304b\u304f / \u30ea\u30e5\u30a6\u30bd\u30ab\u30af",
     hero_eyebrow: "Master's Student in Computer Science, Chiba University",
     subtitle: "Multimodal Wireless Sensing and Human-State Estimation",
     about_p1: "I am a master's student in Computer Science at Chiba University, working on multimodal wireless sensing, IoT-based smart spaces, affective computing, and non-contact physiological state estimation.",
@@ -75,7 +74,6 @@ const translations = {
     nav_contact: "联系方式",
 
     display_name: "刘祖赫",
-    name_aliases: "\u5218\u7956\u8d6b / \u5289\u7956\u8d6b / \u308a\u3085\u3046\u305d\u304b\u304f / \u30ea\u30e5\u30a6\u30bd\u30ab\u30af",
     hero_eyebrow: "千叶大学计算机科学硕士研究生",
     subtitle: "多模态无线感知与人体状态估计",
     about_p1: "我目前就读于日本千叶大学计算机科学专业，研究兴趣包括多模态无线感知、物联网智能空间、情感计算以及非接触式生理状态估计。",
@@ -143,7 +141,6 @@ const translations = {
     nav_contact: "連絡先",
 
     display_name: "劉祖赫(リュウ　ソカク)",
-    name_aliases: "\u5289\u7956\u8d6b / \u30ea\u30e5\u30a6\u30bd\u30ab\u30af / \u308a\u3085\u3046\u305d\u304b\u304f / \u5218\u7956\u8d6b",
     hero_eyebrow: "千葉大学 情報科学専攻 修士課程",
     subtitle: "マルチモーダル無線センシングと人体状態推定",
     about_p1: "千葉大学情報科学専攻の修士課程に在籍し、マルチモーダル無線センシング、IoT ベースのスマート空間、感情計算、非接触型生理状態推定に関心を持っています。",
