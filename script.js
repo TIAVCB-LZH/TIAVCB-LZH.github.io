@@ -3,7 +3,7 @@ const translations = {
     nav_about: "About",
     nav_research: "Research",
     nav_publications: "Publications",
-    nav_projects: "Projects",
+    nav_projects: "Internships",
     nav_contact: "Contact",
 
     display_name: "Zuhe Liu",
@@ -48,9 +48,9 @@ const translations = {
     presentation_2_title: "Emotion Estimation from Indoor Environmental Sensors with Machine and Deep Learning Models",
     presentation_2_meta: "Zuhe Liu and Nobuyoshi Komuro, \"Emotion Estimation from Indoor Environmental Sensors with Machine and Deep Learning Models,\" 2025 IEEE CASS Chiba Workshop, poster presentation, December 2025, Chiba University, Japan.",
 
-    projects_title: "Projects",
+    projects_title: "Internships",
     project_1_title: "MQTT-ECHONET Lite Protocol Conversion Middleware",
-    project_1_meta: "Short-term Researcher, JAIST, August 2024 - September 2024",
+    project_1_meta: "Research Intern, JAIST, August 2024 - September 2024",
     project_1_text: "Developed Java-based middleware for cross-protocol communication between application clients and smart home devices, supporting device discovery, remote control, status acquisition, and feedback mechanisms.",
     project_1_detail_1: "Implemented device discovery using UDP broadcast and ECHONET Lite message handling.",
     project_1_detail_2: "Mapped MQTT control topics to ECHONET Lite GET, SET, and OBSERVE commands.",
@@ -70,7 +70,7 @@ const translations = {
     nav_about: "关于我",
     nav_research: "研究方向",
     nav_publications: "论文",
-    nav_projects: "项目经历",
+    nav_projects: "实习经历",
     nav_contact: "联系方式",
 
     display_name: "刘祖赫",
@@ -115,9 +115,9 @@ const translations = {
     presentation_2_title: "Emotion Estimation from Indoor Environmental Sensors with Machine and Deep Learning Models",
     presentation_2_meta: "刘祖赫, 小室信喜, \"Emotion Estimation from Indoor Environmental Sensors with Machine and Deep Learning Models,\" 2025 IEEE CASS Chiba Workshop，海报发表，2025年12月（日本千叶大学）。",
 
-    projects_title: "项目经历",
+    projects_title: "实习经历",
     project_1_title: "MQTT-ECHONET Lite 协议转换中间件",
-    project_1_meta: "短期研究员，日本北陆先端科学技术大学院大学（JAIST），2024.08 - 2024.09",
+    project_1_meta: "研究实习生，日本北陆先端科学技术大学院大学（JAIST），2024.08 - 2024.09",
     project_1_text: "面向智能家居设备跨协议通信场景，开发基于 Java 的中间件，实现应用端控制指令向智能家居设备控制命令的转换，支持设备发现、远程控制、状态获取与反馈机制。",
     project_1_detail_1: "基于 UDP 广播实现设备发现，并处理 ECHONET Lite 消息解析流程。",
     project_1_detail_2: "将 MQTT 控制主题映射为 ECHONET Lite 的 GET、SET 与 OBSERVE 指令。",
@@ -137,7 +137,7 @@ const translations = {
     nav_about: "自己紹介",
     nav_research: "研究分野",
     nav_publications: "論文誌",
-    nav_projects: "プロジェクト",
+    nav_projects: "インターンシップ",
     nav_contact: "連絡先",
 
     display_name: "劉祖赫(リュウ　ソカク)",
@@ -182,9 +182,9 @@ const translations = {
     presentation_2_title: "Emotion Estimation from Indoor Environmental Sensors with Machine and Deep Learning Models",
     presentation_2_meta: "劉 祖赫, 小室 信喜, \"Emotion Estimation from Indoor Environmental Sensors with Machine and Deep Learning Models,\" 2025 IEEE CASS Chiba Workshop, 2025年12月（千葉大学）。",
 
-    projects_title: "プロジェクト",
+    projects_title: "インターンシップ",
     project_1_title: "MQTT-ECHONET Lite プロトコル変換ミドルウェア",
-    project_1_meta: "短期研究員、北陸先端科学技術大学院大学（JAIST）、2024.08 - 2024.09",
+    project_1_meta: "研究インターン、北陸先端科学技術大学院大学（JAIST）、2024.08 - 2024.09",
     project_1_text: "スマートホーム機器のクロスプロトコル通信に向けて、Java ベースのミドルウェアを開発し、機器発見、遠隔制御、状態取得、フィードバック機構を実装しました。",
     project_1_detail_1: "UDP ブロードキャストを用いた機器発見と ECHONET Lite メッセージ処理を実装しました。",
     project_1_detail_2: "MQTT の制御トピックを ECHONET Lite の GET、SET、OBSERVE コマンドに対応付けました。",
