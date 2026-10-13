@@ -175,7 +175,7 @@ const translations = {
     education_3_title: "大連外国語大学（中国）",
     education_3_text: "ネットワークエンジニアリング 学士",
 
-    presentations_title: "口頭発表等",
+    presentations_title: "口頭発表",
     international_conferences_title: "国際会議",
     international_conferences_empty: "該当なし。",
     publications_title: "論文誌",
