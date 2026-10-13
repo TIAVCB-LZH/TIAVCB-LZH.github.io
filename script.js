@@ -184,7 +184,7 @@ const translations = {
 
     projects_title: "研究開発経験",
     project_1_title: "MQTT-ECHONET Lite プロトコル変換ミドルウェア",
-    project_1_meta: "研究インターン、北陸先端科学技術大学院大学（JAIST）、2024.08 - 2024.09",
+    project_1_meta: "北陸先端科学技術大学院大学（JAIST）、2024.08 - 2024.09",
     project_1_text: "スマートホーム機器のクロスプロトコル通信に向けて、Java ベースのミドルウェアを開発し、機器発見、遠隔制御、状態取得、フィードバック機構を実装しました。",
     project_1_detail_1: "UDP ブロードキャストを用いた機器発見と ECHONET Lite メッセージ処理を実装しました。",
     project_1_detail_2: "MQTT の制御トピックを ECHONET Lite の GET、SET、OBSERVE コマンドに対応付けました。",
