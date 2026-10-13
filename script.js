@@ -171,7 +171,7 @@ const translations = {
     education_3_title: "大連外国語大学（中国）",
     education_3_text: "ネットワークエンジニアリング 学士",
 
-    presentations_title: "口頭発表",
+    presentations_title: "口頭発表等",
     international_conferences_title: "国際会議",
     conference_1_meta: "Z. Liu, J. Qian, and N. Komuro, \"Probabilistic Group Emotion Estimation from Environmental Sensor Data Using Entropy-Based Reliability Evaluation,\" Proc. 15th International Conference on Communications, Circuits and Systems (ICCCAS), pp. 95-99, Jul. 2026 (Takasaki, Japan).",
     publications_title: "論文誌",
