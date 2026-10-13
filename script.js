@@ -117,7 +117,7 @@ const translations = {
 
     projects_title: "研究开发经历",
     project_1_title: "MQTT-ECHONET Lite 协议转换中间件",
-    project_1_meta: "研究实习生，日本北陆先端科学技术大学院大学（JAIST），2024.08 - 2024.09",
+    project_1_meta: "日本北陆先端科学技术大学院大学（JAIST），2024.08 - 2024.09",
     project_1_text: "面向智能家居设备跨协议通信场景，开发基于 Java 的中间件，实现应用端控制指令向智能家居设备控制命令的转换，支持设备发现、远程控制、状态获取与反馈机制。",
     project_1_detail_1: "基于 UDP 广播实现设备发现，并处理 ECHONET Lite 消息解析流程。",
     project_1_detail_2: "将 MQTT 控制主题映射为 ECHONET Lite 的 GET、SET 与 OBSERVE 指令。",
