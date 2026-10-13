@@ -37,7 +37,9 @@ const translations = {
     education_3_title: "Dalian University of Foreign Languages, China",
     education_3_text: "B.Eng. in Network Engineering",
 
-    presentations_title: "Academic Presentations",
+    presentations_title: "Oral and Poster Presentations",
+    international_conferences_title: "International Conferences",
+    international_conferences_empty: "No entries yet.",
     publications_title: "Publications",
     paper_1_title: "Application and Security Analysis of Virtual Private Network (VPN) in Network Communication",
     paper_1_meta: "Zuhe Liu. Academic Journal of Computing & Information Science, Vol. 6, Issue 11, 2023, pp. 52-59.",
@@ -104,7 +106,9 @@ const translations = {
     education_3_title: "大连外国语大学",
     education_3_text: "网络工程 本科",
 
-    presentations_title: "学术发表",
+    presentations_title: "口头及海报发表等",
+    international_conferences_title: "国际会议",
+    international_conferences_empty: "暂无条目。",
     publications_title: "论文",
     paper_1_title: "Application and Security Analysis of Virtual Private Network (VPN) in Network Communication",
     paper_1_meta: "Zuhe Liu. Academic Journal of Computing & Information Science, Vol. 6, Issue 11, 2023, pp. 52-59.",
@@ -136,7 +140,7 @@ const translations = {
   ja: {
     nav_about: "自己紹介",
     nav_research: "研究分野",
-    nav_publications: "論文",
+    nav_publications: "論文誌",
     nav_projects: "プロジェクト",
     nav_contact: "連絡先",
 
@@ -171,8 +175,10 @@ const translations = {
     education_3_title: "大連外国語大学（中国）",
     education_3_text: "ネットワークエンジニアリング 学士",
 
-    presentations_title: "発表",
-    publications_title: "論文",
+    presentations_title: "口頭発表等",
+    international_conferences_title: "国際会議",
+    international_conferences_empty: "該当なし。",
+    publications_title: "論文誌",
     paper_1_title: "Application and Security Analysis of Virtual Private Network (VPN) in Network Communication",
     paper_1_meta: "Zuhe Liu. Academic Journal of Computing & Information Science, Vol. 6, Issue 11, 2023, pp. 52-59.",
     presentation_1_title: "\u74b0\u5883\u30c7\u30fc\u30bf\u3092\u7528\u3044\u305f\u96c6\u56e3\u611f\u60c5\u63a8\u5b9a\u306b\u95a2\u3059\u308b\u7814\u7a76",
