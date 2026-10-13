@@ -291,6 +291,10 @@ h3 {
   margin: 0;
 }
 
+.research-outlook {
+  margin: 24px 0 0;
+}
+
 .keyword-list {
   display: flex;
   flex-wrap: wrap;
