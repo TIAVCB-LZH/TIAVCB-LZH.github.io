@@ -348,6 +348,24 @@ h3 {
   margin: 0;
 }
 
+.reference-list {
+  margin: 0;
+  padding-left: 1.5em;
+  color: #111111;
+  font-size: 16px;
+  line-height: 1.7;
+  overflow-wrap: anywhere;
+}
+
+.reference-list li {
+  padding-left: 0.15em;
+  margin-bottom: 16px;
+}
+
+.reference-list li:last-child {
+  margin-bottom: 0;
+}
+
 .publication,
 .project,
 .timeline-item {
