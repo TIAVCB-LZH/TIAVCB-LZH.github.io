@@ -50,7 +50,7 @@ const translations = {
 
     projects_title: "Research and Development Experience",
     project_1_title: "MQTT-ECHONET Lite Protocol Conversion Middleware",
-    project_1_meta: "Research Intern, JAIST, August 2024 - September 2024",
+    project_1_meta: "Japan Advanced Institute of Science and Technology (JAIST), August 2024 - September 2024",
     project_1_text: "Developed Java-based middleware for cross-protocol communication between application clients and smart home devices, supporting device discovery, remote control, status acquisition, and feedback mechanisms.",
     project_1_detail_1: "Implemented device discovery using UDP broadcast and ECHONET Lite message handling.",
     project_1_detail_2: "Mapped MQTT control topics to ECHONET Lite GET, SET, and OBSERVE commands.",
