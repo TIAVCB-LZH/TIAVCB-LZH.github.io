@@ -111,7 +111,7 @@ const translations = {
     paper_1_title: "Application and Security Analysis of Virtual Private Network (VPN) in Network Communication",
     paper_1_meta: "Z. Liu, \"Application and Security Analysis of Virtual Private Network (VPN) in Network Communication,\" Academic Journal of Computing & Information Science, Vol. 6, Issue 11, pp. 52-59, 2023.",
     presentation_1_title: "A Study on Group Emotion Estimation Using Environmental Data",
-    presentation_1_meta: "钱静石, 刘祖赫, 小室信喜, \"A Study on Group Emotion Estimation Using Environmental Data,\" IEICE 技术研究报告, Vol. 126, No. 19, CS2026-5, pp. 20-23, 2026年5月（钏路商工会议所）。",
+    presentation_1_meta: "Jingshi Qian, Zuhe Liu, and Nobuyoshi Komuro, \"A Study on Group Emotion Estimation Using Environmental Data,\" IEICE Technical Report, Vol. 126, No. 19, CS2026-5, pp. 20-23, May 2026 (Kushiro Chamber of Commerce & Industry).",
     presentation_2_title: "Emotion Estimation from Indoor Environmental Sensors with Machine and Deep Learning Models",
     presentation_2_meta: "Z. Liu and N. Komuro, \"Emotion Estimation from Indoor Environmental Sensors with Machine and Deep Learning Models,\" 2025 IEEE CASS Chiba Workshop, Dec. 2025（Chiba University, Japan, 千葉大学）",
 
