@@ -39,7 +39,7 @@ const translations = {
 
     presentations_title: "Oral and Poster Presentations",
     international_conferences_title: "International Conferences",
-    international_conferences_empty: "No entries yet.",
+    conference_1_meta: "Z. Liu, J. Qian, and N. Komuro, \"Probabilistic Group Emotion Estimation from Environmental Sensor Data Using Entropy-Based Reliability Evaluation,\" Proc. 15th International Conference on Communications, Circuits and Systems (ICCCAS), pp. 95-99, Jul. 2026 (Takasaki, Japan).",
     publications_title: "Publications",
     paper_1_title: "Application and Security Analysis of Virtual Private Network (VPN) in Network Communication",
     paper_1_meta: "Zuhe Liu, \"Application and Security Analysis of Virtual Private Network (VPN) in Network Communication,\" Academic Journal of Computing & Information Science, Vol. 6, Issue 11, pp. 52-59, 2023.",
@@ -106,7 +106,7 @@ const translations = {
 
     presentations_title: "口头及海报发表等",
     international_conferences_title: "国际会议",
-    international_conferences_empty: "暂无条目。",
+    conference_1_meta: "Z. Liu, J. Qian, and N. Komuro, \"Probabilistic Group Emotion Estimation from Environmental Sensor Data Using Entropy-Based Reliability Evaluation,\" Proc. 15th International Conference on Communications, Circuits and Systems (ICCCAS), pp. 95-99, Jul. 2026 (Takasaki, Japan).",
     publications_title: "论文",
     paper_1_title: "Application and Security Analysis of Virtual Private Network (VPN) in Network Communication",
     paper_1_meta: "刘祖赫, \"Application and Security Analysis of Virtual Private Network (VPN) in Network Communication,\" Academic Journal of Computing & Information Science, Vol. 6, Issue 11, pp. 52-59, 2023.",
@@ -173,7 +173,7 @@ const translations = {
 
     presentations_title: "口頭発表",
     international_conferences_title: "国際会議",
-    international_conferences_empty: "該当なし。",
+    conference_1_meta: "Z. Liu, J. Qian, and N. Komuro, \"Probabilistic Group Emotion Estimation from Environmental Sensor Data Using Entropy-Based Reliability Evaluation,\" Proc. 15th International Conference on Communications, Circuits and Systems (ICCCAS), pp. 95-99, Jul. 2026 (Takasaki, Japan).",
     publications_title: "論文誌",
     paper_1_title: "Application and Security Analysis of Virtual Private Network (VPN) in Network Communication",
     paper_1_meta: "劉 祖赫, \"Application and Security Analysis of Virtual Private Network (VPN) in Network Communication,\" Academic Journal of Computing & Information Science, Vol. 6, Issue 11, pp. 52-59, 2023年。",
