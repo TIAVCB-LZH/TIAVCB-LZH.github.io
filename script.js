@@ -189,11 +189,11 @@ const translations = {
 
     education_title: "学歴",
     education_1_title: "千葉大学（日本）",
-    education_1_text: "情報科学専攻 修士",
-    education_2_title: "北陸大学（日本）",
-    education_2_text: "マネジメント学 学士",
+    education_1_text: "情報科学専攻 修士（工学）",
+    education_2_title: "北陸大学（日本）編入生",
+    education_2_text: "マネジメント学科 学士（マネジメント）",
     education_3_title: "大連外国語大学（中国）",
-    education_3_text: "ネットワークエンジニアリング 学士",
+    education_3_text: "ネットワークエンジニアリング 学士(工学)",
 
     presentations_title: "口頭発表等",
     international_conferences_title: "国際会議",
