@@ -54,7 +54,7 @@ const translations = {
     presentation_1_title: "A Study on Group Emotion Estimation Using Environmental Data",
     presentation_1_meta: "Jingshi Qian, Zuhe Liu, and Nobuyoshi Komuro, \"A Study on Group Emotion Estimation Using Environmental Data,\" IEICE Technical Report, Vol. 126, No. 19, CS2026-5, pp. 20-23, May 2026 (Kushiro Chamber of Commerce & Industry).",
     presentation_2_title: "Emotion Estimation from Indoor Environmental Sensors with Machine and Deep Learning Models",
-    presentation_2_meta: "Z. Liu and N. Komuro, \"Emotion Estimation from Indoor Environmental Sensors with Machine and Deep Learning Models,\" 2025 IEEE CASS Chiba Workshop, Dec. 2025（Chiba University, Japan, 千葉大学）",
+    presentation_2_meta: "Z. Liu and N. Komuro, \"Emotion Estimation from Indoor Environmental Sensors with Machine and Deep Learning Models,\" 2025 IEEE CASS Chiba Workshop, Dec. 2025（Chiba, Japan,Chiba University）",
 
     projects_title: "Research and Development Experience",
     project_1_title: "MQTT-ECHONET Lite Protocol Conversion Middleware",
@@ -129,7 +129,7 @@ const translations = {
     presentation_1_title: "A Study on Group Emotion Estimation Using Environmental Data",
     presentation_1_meta: "Jingshi Qian, Zuhe Liu, and Nobuyoshi Komuro, \"A Study on Group Emotion Estimation Using Environmental Data,\" IEICE Technical Report, Vol. 126, No. 19, CS2026-5, pp. 20-23, May 2026 (Kushiro Chamber of Commerce & Industry).",
     presentation_2_title: "Emotion Estimation from Indoor Environmental Sensors with Machine and Deep Learning Models",
-    presentation_2_meta: "Z. Liu and N. Komuro, \"Emotion Estimation from Indoor Environmental Sensors with Machine and Deep Learning Models,\" 2025 IEEE CASS Chiba Workshop, Dec. 2025（Chiba University, Japan, 千葉大学）",
+    presentation_2_meta: "Z. Liu and N. Komuro, \"Emotion Estimation from Indoor Environmental Sensors with Machine and Deep Learning Models,\" 2025 IEEE CASS Chiba Workshop, Dec. 2025（Chiba, Japan,Chiba University）",
 
     projects_title: "研究开发经历",
     project_1_title: "MQTT-ECHONET Lite 协议转换中间件",
@@ -204,7 +204,7 @@ const translations = {
     presentation_1_title: "\u74b0\u5883\u30c7\u30fc\u30bf\u3092\u7528\u3044\u305f\u96c6\u56e3\u611f\u60c5\u63a8\u5b9a\u306b\u95a2\u3059\u308b\u7814\u7a76",
     presentation_1_meta: "\u92ad \u9759\u77f3, \u5289 \u7956\u8d6b, \u5c0f\u5ba4 \u4fe1\u559c, \u0022\u74b0\u5883\u30c7\u30fc\u30bf\u3092\u7528\u3044\u305f\u96c6\u56e3\u611f\u60c5\u63a8\u5b9a\u306b\u95a2\u3059\u308b\u7814\u7a76,\u0022 \u96fb\u5b50\u60c5\u5831\u901a\u4fe1\u5b66\u4f1a\u30b3\u30df\u30e5\u30cb\u30b1\u30fc\u30b7\u30e7\u30f3\u30b7\u30b9\u30c6\u30e0\u7814\u7a76\u4f1a, Vol. 126, No. 19, pp. 20-23, \u4ee4\u548c8\u5e745\u6708\uff08\u91e7\u8def\u5546\u5de5\u4f1a\u8b70\u6240\uff09\u3002",
     presentation_2_title: "Emotion Estimation from Indoor Environmental Sensors with Machine and Deep Learning Models",
-    presentation_2_meta: "Z. Liu and N. Komuro, \"Emotion Estimation from Indoor Environmental Sensors with Machine and Deep Learning Models,\" 2025 IEEE CASS Chiba Workshop, Dec. 2025（Chiba University, Japan, 千葉大学）",
+    presentation_2_meta: "Z. Liu and N. Komuro, \"Emotion Estimation from Indoor Environmental Sensors with Machine and Deep Learning Models,\" 2025 IEEE CASS Chiba Workshop, Dec. 2025（Chiba, Japan,Chiba University）",
 
     projects_title: "研究開発経験",
     project_1_title: "MQTT-ECHONET Lite プロトコル変換ミドルウェア",
