@@ -115,7 +115,7 @@ const translations = {
     education_title: "教育背景",
     education_1_title: "日本 千叶大学",
     education_1_text: "计算机科学 硕士研究生(工学)",
-    education_2_title: "日本 北陆大学(编入生)",
+    education_2_title: "日本 北陆大学（编入生）",
     education_2_text: "管理学 学士(管理学)",
     education_3_title: "大连外国语大学",
     education_3_text: "网络工程 学士(工学)",
