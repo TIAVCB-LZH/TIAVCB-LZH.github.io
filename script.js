@@ -12,13 +12,6 @@ const translations = {
     about_p1: "I am a master's student in Computer Science at Chiba University. My research focuses on contactless human sensing and physiological state modeling using wireless sensing, environmental sensing, and machine learning.",
     about_p2: "I study the relationship between environmental changes and human physiological responses, with particular attention to individual differences, response delays, and the reliability of state estimates.",
 
-    news_title: "News",
-    news_1: "Personal academic website updated with research, education, and project information.",
-    news_2: "Presented a poster at the 2025 IEEE CASS Chiba Workshop.",
-    news_3: "Started master's research on Wi-Fi CSI-based human-state estimation.",
-    news_4: "Completed an IoT middleware project using MQTT and ECHONET Lite.",
-    news_5: "Second author of an IEICE technical report on group emotion estimation using environmental data.",
-
     research_title: "Research Interests",
     research_statement_title: "Contactless Human Sensing and Physiological State Modeling",
     research_statement_text: "My research centers on contactless human sensing and physiological state modeling. By combining wireless sensing, environmental sensing, and machine learning, I study the relationship between environmental changes and human physiological responses and explore ways to monitor human states with less reliance on cameras and wearable devices. I am particularly interested in individual differences in physiological responses, response delays, and the reliability of state estimates.",
@@ -87,13 +80,6 @@ const translations = {
     about_p1: "我目前就读于日本千叶大学计算机科学专业，研究围绕非接触人体感知与生理状态建模展开，结合无线感知、环境传感和机器学习开展研究。",
     about_p2: "我关注环境变化与人体生理反应之间的关系，尤其关注生理反应的个体差异、时间延迟，以及状态推定结果的可靠性。",
 
-    news_title: "最新动态",
-    news_1: "个人学术主页已补充研究方向、教育背景、项目经历与论文信息。",
-    news_2: "在 2025 IEEE CASS Chiba Workshop 进行海报发表。",
-    news_3: "开始基于 Wi-Fi CSI 的人体状态估计方向硕士研究。",
-    news_4: "完成基于 MQTT 与 ECHONET Lite 的 IoT 中间件项目。",
-    news_5: "\u4f5c\u4e3a\u7b2c\u4e8c\u4f5c\u8005\u7684 IEICE \u6280\u672f\u7814\u7a76\u62a5\u544a\u300aA Study on Group Emotion Estimation Using Environmental Data\u300b\u5df2\u53d1\u8868\u3002",
-
     research_title: "研究方向",
     research_statement_title: "非接触人体感知与生理状态建模",
     research_statement_text: "我的研究围绕非接触人体感知与生理状态建模展开，结合无线感知、环境传感和机器学习，研究环境变化与人体生理反应之间的关系，并探索减少对摄像头和穿戴设备依赖的人体状态监测方法。我尤其关注生理反应的个体差异、时间延迟，以及状态推定结果的可靠性。",
@@ -161,13 +147,6 @@ const translations = {
     subtitle: "非接触人体センシングと生理状態モデリング",
     about_p1: "千葉大学情報科学専攻の修士課程に在籍し、非接触人体センシングと生理状態モデリングを中心に、無線センシング、環境センシング、機械学習を組み合わせた研究に取り組んでいます。",
     about_p2: "環境変化と人体の生理反応の関係を研究し、特に生理反応の個人差、時間遅延、状態推定結果の信頼性に注目しています。",
-
-    news_title: "ニュース",
-    news_1: "研究分野、学歴、プロジェクト、論文情報を個人学術ホームページに追加しました。",
-    news_2: "2025 IEEE CASS Chiba Workshop でポスター発表を行いました。",
-    news_3: "Wi-Fi CSI に基づく人体状態推定に関する修士研究を開始しました。",
-    news_4: "MQTT と ECHONET Lite を用いた IoT ミドルウェアプロジェクトを完了しました。",
-    news_5: "\u7b2c2\u8457\u8005\u3068\u3057\u3066\u53c2\u753b\u3057\u305f IEICE \u6280\u8853\u7814\u7a76\u5831\u544a\u300cA Study on Group Emotion Estimation Using Environmental Data\u300d\u304c\u63b2\u8f09\u3055\u308c\u307e\u3057\u305f\u3002",
 
     research_title: "研究分野",
     research_statement_title: "非接触人体センシングと生理状態モデリング",
