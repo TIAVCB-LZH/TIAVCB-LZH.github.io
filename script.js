@@ -38,7 +38,7 @@ const translations = {
     education_3_title: "Dalian University of Foreign Languages, China",
     education_3_text: "B.Eng. in Network Engineering",
 
-    presentations_title: "口頭発表等",
+    presentations_title: "Oral Presentations and Other Contributions",
     international_conferences_title: "International Conferences",
     conference_1_meta: "Z. Liu, J. Qian, and N. Komuro, \"Probabilistic Group Emotion Estimation from Environmental Sensor Data Using Entropy-Based Reliability Evaluation,\" Proc. 15th International Conference on Communications, Circuits and Systems (ICCCAS), pp. 95-99, Jul. 2026 (Takasaki, Japan).",
     publications_title: "Publications",
@@ -106,7 +106,7 @@ const translations = {
     education_3_title: "大连外国语大学",
     education_3_text: "网络工程 学士(工学)",
 
-    presentations_title: "口頭発表等",
+    presentations_title: "口头发表等",
     international_conferences_title: "国际会议",
     conference_1_meta: "Z. Liu, J. Qian, and N. Komuro, \"Probabilistic Group Emotion Estimation from Environmental Sensor Data Using Entropy-Based Reliability Evaluation,\" Proc. 15th International Conference on Communications, Circuits and Systems (ICCCAS), pp. 95-99, Jul. 2026 (Takasaki, Japan).",
     publications_title: "论文",
